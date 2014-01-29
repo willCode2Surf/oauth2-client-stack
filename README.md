@@ -1,36 +1,15 @@
-starter-kit
+OAuth2Stack
 ===========
 
-A starter kit for Ember
+A client side starter kit that demos authenticating from an OAuth2 provider (like the one this example is being built for)
 
-Your Ember.js project is almost ready! Here's how to get started:
+Some quick notes
 
-- Start writing your app in js/app.js.
+- Bootstrap / Ember used for this example but Angular, WPF, and other implementations.  Just needed to start somewhere.
 
-- Describe your application HTML in index.html.
+- Issues will be used to track changes and introduce large 
 
-- During development, you can link to js/libs/ember-*.js to get the
-  unminified version of Ember.js.
+- Project structure will change as we introduce new features or project restruct/refactoring
 
-- Add CSS to css/style.css
 
-- Open index.html in your browser
 
-Tests
-=====
-
-This starter kit comes with an integration test sample, written for QUnit runner. 
-
-You can run the tests by opening the `index.html?test` page in your browser.
-
-The test is located in the `tests/tests.js` file. You can see how such an 
-integration test should be written, using QUnit assertions and ember-testing helpers.
-
-For more information about ember-testing package see [ember-testing](http://emberjs.com/guides/testing/integration/)
-
-For more information about the QUnit testing framework, see [QUnit](http://qunitjs.com/)
-
-Contact
-====
-
-www.emberjs.com
