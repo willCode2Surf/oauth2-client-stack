@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 <title>OAuth2Stack</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/signin.css">
+  <link rel="stylesheet" href="css/sticky-footer.css">
 </head>
 <body>
   <script type="text/x-handlebars">
-    <h2>OAuth2Stack Example</h2>    
-    {{outlet}}
-  </script>
-  
-  <script type="text/x-handlebars" data-template-name="index">
-  Hello!  Main content coming soon!!
-  </script>
-   <script type="text/x-handlebars" data-template-name="loginForm">
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+        </div>
+      </div>
+    </div>
+	{{outlet}}
     
-	
+  </script>
+   <script type="text/x-handlebars" data-template-name="index">
+   <div class="container">
+     <form class="form-signin" role="form">
+       <h2 class="form-signin-heading">sign in</h2>
+       <input type="text" class="form-control" placeholder="username" required="" id="username" autofocus="">
+       <input type="password" class="form-control" placeholder="password" id="password" required="">
+       <label class="checkbox">
+         <input type="checkbox" value="remember-me"> Remember me
+       </label>
+       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+     </form>
+   </div> <!-- /container -->
+
   </script>
   <script type="text/x-handlebars" data-template-name="welcome">
    
 
  </script>
+ <script type="text/x-handlebars" data-template-name="footer">
+ <div id="footer">
+   <div class="container">
+     <p class="text-muted">MOM THE MEATLOAF!   WE WANT IT NOW!</p>
+   </div>
+ </div>
+
+</script>
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>
   <script src="js/libs/ember-1.3.1.js"></script>
